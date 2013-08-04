@@ -10,6 +10,7 @@ catkin_package(INCLUDE_DIRS include
 )
 else()
 catkin_stack()
+find_package(ROS REQUIRED sensor_msgs)
 catkin_project(ecto_pcl
                INCLUDE_DIRS include
 )

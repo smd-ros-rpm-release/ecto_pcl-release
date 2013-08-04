@@ -1,12 +1,11 @@
 <stack>
   <name>ecto_pcl</name>
-  <version>0.3.11</version>
+  <version>0.3.12</version>
   <description>Ecto bindings for common PCL functionality.</description>
   <author email="mferguson@willowgarage.com">Michael Ferguson</author>
   <author email="erublee@willowgarage.com">Ethan Rublee</author>
   <author email="straszheim@willowgarage.com">Troy Straszheim</author>
-  <maintainer email="vrabaud@willowgarage.com">Vincent Rabaud</maintainer>
-  <maintainer email="erublee@willowgarage.com">Ethan Rublee</maintainer>
+  <maintainer email="vincent.rabaud@gmail.com">Vincent Rabaud</maintainer>
   <license>BSD</license>
   <copyright>Willow Garage</copyright>
 
@@ -16,8 +15,12 @@
   <build_depends>ecto</build_depends>
   <build_depends>ecto_ros</build_depends>
   <build_depends>pcl</build_depends>
+  <build_depends>pcl_ros</build_depends>
+  <build_depends>common_msgs</build_depends>
   <depends>boost</depends>
   <depends>ecto</depends>
   <depends>ecto_ros</depends>
   <depends>pcl</depends>
+  <depends>pcl_ros</depends>
+  <depends>common_msgs</depends>
 </stack>
